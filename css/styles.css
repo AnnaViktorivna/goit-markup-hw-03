@@ -191,7 +191,7 @@ ul {
   gap: 24px;
 }
 .description-item {
-  flex-basis: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .description-title {
@@ -302,7 +302,7 @@ ul {
 .section-portfolio-item {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
-  flex-basis: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 .container-portfolio {
   border-radius: 0px 0px 4px 4px;
