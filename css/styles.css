@@ -66,7 +66,6 @@ img {
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-list-element,
@@ -74,6 +73,8 @@ img {
   color: #2e2f42;
   list-style: none;
   text-decoration: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-list-element:hover,
@@ -123,12 +124,12 @@ ul {
 
 /**=====section1 =====*/
 .section-main-title {
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .container-main-title {
   background-color: #2e2f42;
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .main-title {
@@ -190,7 +191,7 @@ ul {
   gap: 24px;
 }
 .description-item {
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .description-title {
@@ -254,6 +255,7 @@ ul {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  padding: 32px 0;
 }
 
 .team-member {
@@ -263,7 +265,7 @@ ul {
   line-height: 1.2;
   letter-spacing: 0.02em;
   padding-top: 32px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .team-p {
@@ -279,6 +281,7 @@ ul {
 .section-portfolio {
   background-color: #ffffff;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .section-portfolio-title {
   color: #2e2f42;
@@ -307,6 +310,8 @@ ul {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 .section-subtitle {
   color: #2e2f42;
@@ -314,7 +319,7 @@ ul {
   line-height: 1.2;
   font-weight: 500;
   letter-spacing: 0.02em;
-  padding: 32px 16px 8px;
+  margin-bottom: 8px;
 }
 
 .section-portfolio-p {
