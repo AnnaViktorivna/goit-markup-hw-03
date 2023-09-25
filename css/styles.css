@@ -24,8 +24,6 @@ img {
 }
 /**=====HEADER=====*/
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -38,6 +36,7 @@ img {
 }
 .container-nav {
   display: flex;
+  align-items: center;
 }
 .header-navigation {
   display: flex;
@@ -73,8 +72,6 @@ img {
   color: #2e2f42;
   list-style: none;
   text-decoration: none;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-list-element:hover,
@@ -100,6 +97,7 @@ img {
 }
 
 ul {
+  padding: 0;
   list-style: none;
 }
 .address-link {
@@ -126,10 +124,11 @@ ul {
 .section-main-title {
   padding-top: 188px;
   padding-bottom: 188px;
+  background-color: #2e2f42;
+  align-items: center;
 }
 
 .container-main-title {
-  background-color: #2e2f42;
 }
 
 .main-title {
@@ -138,8 +137,9 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .body-btn {
@@ -157,6 +157,7 @@ ul {
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin: 0 auto;
 }
 
 .body-btn:hover,
@@ -185,13 +186,11 @@ ul {
 
 .description-list {
   list-style: none;
-  padding-left: 15px;
-  padding-right: 15px;
   display: flex;
   gap: 24px;
 }
 .description-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .description-title {
@@ -220,13 +219,10 @@ ul {
 }
 .team {
   color: #2e2f42;
-  text-align: center;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
   text-align: center;
   margin-bottom: 72px;
 }
@@ -264,7 +260,6 @@ ul {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -300,9 +295,8 @@ ul {
   row-gap: 48px;
 }
 .section-portfolio-item {
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
+  flex-basis: calc((100% - 2 * 24px) / 3);
   background: var(--WHITE, #fff);
-  width: calc((100% - 2 * 24px) / 3);
 }
 .container-portfolio {
   border-radius: 0px 0px 4px 4px;
@@ -347,7 +341,6 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  padding-top: 100px;
   display: inline-block;
   margin-bottom: 16px;
 }
