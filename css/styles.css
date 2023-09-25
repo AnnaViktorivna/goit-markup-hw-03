@@ -25,7 +25,6 @@ img {
 /**=====HEADER=====*/
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 
 .container {
@@ -73,6 +72,7 @@ img {
   color: #2e2f42;
   list-style: none;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .header-list-element:hover,
